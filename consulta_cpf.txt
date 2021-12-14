@@ -1,0 +1,58 @@
+/*
+*
+*
+*
+* Requisitos Funcionais: 
+*
+* [RF001] - O sitema solicita a entrada do número do CADASTRO DE PESSOA FÍSICA (CPF).
+* [RF002] - O sistema então fará a consulta da situação cadastral emitindo o status do CPF.
+* [RF003] - O sisema retorna como mensagem o status BLOQUEADO para os casos que o CPF está listado na BLACKLIST.
+*         - Para os seguintes CPF's: 133.699.924-97, 700.914.751-84, 289.187.747-23
+
+* [RF004] - O sistema emitirá como mensagem de status VIP E LIBERADO nos casos em que o CPF tem o privilégio de liberação especial.
+*         - Para os seguintes CPF's com privilégios de LIBERAÇÃO ESPECIAL: 584.639.442-00, 262.115.389-11
+*
+*[RF005] - O sistema emitirá os status LIBERADO para os casos em que o CPF não se encontra em nenhuma das listas anteriores.
+* 
+*
+* Descrição: 
+*
+* Neste exemplo, são criados dois arrays. Foi utilizado de forma simples de acordo com o levamento de requisitos de maneira que foi aplicado a estrutura
+* de dados em cadeia que armazena o número de CPF retornando os status BLOQUEADO, VIP E LIBERADO, LIBERADO de acordo com os cenários anteriores.
+*
+* Autor: Alexandro Abade
+*
+* Data: 12/12/2021
+*/
+
+
+programa
+{
+	funcao inicio()
+	{
+		 cadeia cpf_bloqueado[] = { "133.699.924-97", "700.914.751-84", "289.187.747-23" }
+		 cadeia cpf_vip_liberado[] = { "584.639.442-00", "262.115.389-11" }
+		 cadeia cpf
+	
+	
+		escreva ("-----------------------------------------------------------------------\n")
+		escreva ("******** SISTEMA PARA CONSULTA DE CPF - LEBERADO OU BLOQUEADO *********\n")
+		escreva ("-----------------------------------------------------------------------\n")
+
+        escreva("DIGITE AQUI O SEU CPF: ")
+        leia (cpf)
+	  
+	    se(cpf == cpf_bloqueado[0] ou cpf == cpf_bloqueado[1] ou cpf == cpf_bloqueado[2]) 
+	    {
+	        escreva("O CPF informado encontra-se BLOQUEADO \n")
+        } 
+        senao se (cpf == cpf_vip_liberado[0] ou cpf == cpf_vip_liberado[1]) 
+        {
+        	escreva("O CPF informado está na lista de clientes VIP e encontra-se LIBERADO \n")
+        } 
+        senao
+        {
+            escreva ("O CPF informado encontra-se LIBERADO \n")
+        }
+	}
+}
