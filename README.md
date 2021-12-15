@@ -1,7 +1,15 @@
 <p align = "center">
   <img src="https://user-images.githubusercontent.com/5865711/146083004-206f6351-afd2-4a25-8cbf-8dbf27829082.jpeg" data-canonical-src="https://gyazo.com    /eb5c5741b6a9a16c692170a41a49c858.png" width="600" height="400" />
+
+<h1 align="center">
   
 [![PyPi license](https://badgen.net/pypi/license/pip/)](https://pypi.com/project/pip/)
+![GitHub followers](https://img.shields.io/github/followers/alexandroabade?logo=GitHub)  
+[![Twitter Badge](https://img.shields.io/badge/-@alexandroabade-6633cc?style=flat-square&labelColor=6633cc&logo=twitter&logoColor=white&link=https://twitter.com/alexandroabade)](https://twitter.com/alexandroabade) 
+[![Linkedin Badge](https://img.shields.io/badge/-alexandro%20abade-6633cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alexandroabade/)](https://www.linkedin.com/in/alexandro-abade/) 
+[![Gmail Badge](https://img.shields.io/badge/-alexandroabade@gmail.com-6633cc?style=flat-square&logo=Gmail&logoColor=white&link=mailto:alexandroabade@gmail.com)](mailto:alexandro.abade@marxmilhas.com.br)
+  
+</h1>  
 
 # Desafio Técnico - Consulta Regularização de CPF
 
