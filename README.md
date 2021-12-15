@@ -6,7 +6,7 @@
 [![PyPi license](https://badgen.net/pypi/license/pip/)](https://pypi.com/project/pip/)
 ![GitHub followers](https://img.shields.io/github/followers/alexandroabade?logo=GitHub)  
 [![Twitter Badge](https://img.shields.io/badge/-@alexandroabade-6633cc?style=flat-square&labelColor=6633cc&logo=twitter&logoColor=white&link=https://twitter.com/alexandroabade)](https://twitter.com/alexandroabade) 
-[![Linkedin Badge](https://img.shields.io/badge/-alexandro%20abade-6633cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alexandroabade/)](https://www.linkedin.com/in/alexandro-abade/) 
+[![Linkedin Badge](https://img.shields.io/badge/-alexandro%20abade-6633cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alexandroabade/)](https://www.linkedin.com/in/alexandroabade/) 
 [![Gmail Badge](https://img.shields.io/badge/-alexandroabade@gmail.com-6633cc?style=flat-square&logo=Gmail&logoColor=white&link=mailto:alexandroabade@gmail.com)](mailto:alexandro.abade@marxmilhas.com.br)
   
 </h1>  
