@@ -6,7 +6,7 @@
 # Desafio Técnico - Consulta Regularização de CPF
 
 ## Desafio técnico do módulo 1 - Lógica de programação 
-Desafio técnico feito no portugol (Portugol WebStudio) qué é um ambiente para aprender a programar.
+Desafio técnico feito no portugol (Portugol WebStudio) ambiente de plataforma onde conseguimos programar usando nosso próprio idioma.
 Esse desafio é um dos componentes dentro do cronocragama de plano de desenvolvimento individual **(PDI)**
 que tem como proposta o aperfeiçoamento técnico do estagiário através de treinamento e entrega de desafios. 
 
