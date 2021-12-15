@@ -1,10 +1,9 @@
 <p align = "center">
   <img src="https://user-images.githubusercontent.com/5865711/146083004-206f6351-afd2-4a25-8cbf-8dbf27829082.jpeg" data-canonical-src="https://gyazo.com    /eb5c5741b6a9a16c692170a41a49c858.png" width="600" height="400" />
   
-# Desafio Técnico - Consulta Regularização de CPF
-
 [![PyPi license](https://badgen.net/pypi/license/pip/)](https://pypi.com/project/pip/)
 
+# Desafio Técnico - Consulta Regularização de CPF
 
 ## Desafio técnico do módulo 1 - Lógica de programação 
 Desafio técnico feito no portugol (Portugol WebStudio) qué é um ambiente para aprender a programar.
@@ -43,6 +42,15 @@ Requisitos obrigatórios
   
 ## Forma de entregar o desafio
 Entregar o arquivo ".por" que a extensão gerado quando o arquivo é salvo ou é feito o downloading na plataforma.
+
+## Aprendizado ao concluir :heavy_check_mark:
+  Obtive dicersos aprendizados aprendizados com esse desafio tecnico com aprender um pouco mais sobre a plataforma Portugol 
+  e para isso usando nossa própria linguagem e entender um pouco mais onde estão os desafios técnicos por assim dizer.
+  Nessa trilha também pude perceber a importância de estar aberto para pedir ajuda e contar com outras pessoas dentro do time. 
+  
+### Autor
+---
+[<img src="https://" width=115 > <br> <sub> Alexandro Abade </sub>](https://github.com/alexandroabade)
 
 
 ![maxmilhas](https://user-images.githubusercontent.com/5865711/146054213-78403e76-64c4-45de-8d16-48ba53d22ec5.png)
