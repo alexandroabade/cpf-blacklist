@@ -32,7 +32,7 @@ programa
 
 	funcao inicio()
 	{
-	    /* Subrotina */
+	    /* Subrotina ou chamada de função com lógica de negócio*/
         consultaCpf()
 	}
 	
