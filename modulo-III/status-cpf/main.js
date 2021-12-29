@@ -22,15 +22,12 @@ const button = document.querySelector("button");
 const paragrafo = document.querySelector("p");
 
 button.addEventListener("click", pesquisarCpf)
-	const cpfNaListaIncorreto = input.value;
-	function pesquisarCpf() { 
-			let cpf_esta_bloqueado = pesquisarCpfNaLista(cpfNaListaIncorreto, db_cpfs[0])	
-			let cpf_esta_vip_liberado = pesquisarCpfNaLista(cpfNaListaIncorreto, db_cpfs[1])
 
-			if (cpfNaListaIncorreto != 14) {
-				paragrafo.style.color = "red";
-				paragrafo.innerHTML = "Digite o CPF corretamente";
-			} else if (cpf_esta_bloqueado) {
+	function pesquisarCpf() { 
+			let cpf_esta_bloqueado = pesquisarCpfNaLista(input.value, db_cpfs[0])	
+			let cpf_esta_vip_liberado = pesquisarCpfNaLista(input.value, db_cpfs[1])
+
+			if (cpf_esta_bloqueado) {
 						paragrafo.style.color = "red";
 						paragrafo.innerHTML = "O CPF informado encontra-se BLOQUEADO";
 
