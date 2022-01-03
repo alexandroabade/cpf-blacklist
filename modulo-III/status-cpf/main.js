@@ -3,21 +3,6 @@ const cpf_vip_liberados = ["584.639.442-00", "262.115.389-11"]
 
 const db_cpfs = [cpf_bloqueados, cpf_vip_liberados]
 
-const input = document.querySelector('input')
-input.focus();
-
-input.addEventListener('keypress', () => {
-    let inputLength = input.value.length
-
-    // MAX LENGHT 14  CPF
-    if (inputLength == 3 || inputLength == 7) {
-        input.value += '.'
-    }else if (inputLength == 11) {
-        input.value += '-'
-    }
-
-// ****************************************************************************************************
-
 const button = document.querySelector("button");
 const paragrafo = document.querySelector("p");
 
@@ -26,48 +11,26 @@ button.addEventListener("click", pesquisarCpf)
 	function pesquisarCpf() { 
 			let cpf_esta_bloqueado = pesquisarCpfNaLista(input.value, db_cpfs[0])	
 			let cpf_esta_vip_liberado = pesquisarCpfNaLista(input.value, db_cpfs[1])
+			let cpfInput = input.value.length;
 
-			if (cpf_esta_bloqueado) {
-						paragrafo.style.color = "red";
-						paragrafo.innerHTML = "O CPF informado encontra-se BLOQUEADO";
+			if(cpfInput != 14){
+					document.querySelector("p")
+					paragrafo.style.color = "#FF0000"
+					paragrafo.textContent = "Por favor informe corretamente o CPF";
+				}
+				else if (cpf_esta_bloqueado) {
+					paragrafo.style.color = "#FF0000";
+					paragrafo.textContent = "O CPF informado encontra-se BLOQUEADO";
 
 				} else if (cpf_esta_vip_liberado) {
-				  		paragrafo.style.color = "green";
-						paragrafo.innerHTML = "O CPF informado está na lista de clientes VIP e encontra-se LIBERADO";
+				  	paragrafo.style.color = "green";
+					paragrafo.textContent = "O CPF informado está na lista de clientes VIP e encontra-se LIBERADO";
 					
 				} else {
-						paragrafo.style.color = "green";
-						paragrafo.innerHTML = "O CPF informado encontra-se LIBERADO";
+					paragrafo.style.color = "green";
+					paragrafo.textContent = "O CPF informado encontra-se LIBERADO";
 				}
 	}
-
-/*	
-	function pesquisarCpfBloqueado(cpf_a_consultar, cpf_bloqueados) { 
-
-		let cpf_esta_bloqueado = false;
-
-		for (i = 0; i < cpf_bloqueados.length; i++) {
-				if ( cpf_a_consultar == cpf_bloqueados[i]) {
-						cpf_esta_bloqueado = true;
-						break;
-				}
-		}
-		return cpf_esta_bloqueado
-	}
-
-	function pesquisarCpfVipLiberado(cpf_a_consultar, cpfVip_liberado){
-	
-		let cpf_esta_vip_liberado = false;	
-	
-		for (i = 0; i < cpfVip_liberado.length; i++){
-					if ( cpf_a_consultar == cpfVip_liberado[i]){
-						cpf_esta_vip_liberado = true;
-						break;	
-			}
-		}
-		return cpf_esta_vip_liberado
-	}
-*/
 
 
 	function pesquisarCpfNaLista(cpf_a_consultar, cpf_lista){
@@ -82,6 +45,3 @@ button.addEventListener("click", pesquisarCpf)
 		}
 		return cpf_esta_na_lista
 	}
-})
-
-	
