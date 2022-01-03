@@ -12,7 +12,7 @@
 </h1>  
 
 ## 🚀 Começando - PDI
-O cronocragama de plano de desenvolvimento individual **(PDI)** o qual tem como proposta o desenvolvimento técnico do estagiário através de treinamento e entrega de desafios ao longo da trilha para o próximo nivel ou desenvolvimento de carreira.
+O cronocragama de plano de desenvolvimento individual **(PDI)** o qual tem como proposta o desenvolvimento técnico do estagiário através de treinamento e entrega de desafios ao longo da trilha para o próximo nivel e desenvolvimento de carreira.
 
 
 ## 📋 Objetivos
