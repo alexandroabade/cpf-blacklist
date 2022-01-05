@@ -1,0 +1,13 @@
+Treinamento - Controle de versão com GIT
+
+	Link: Git e Github: O que são, Como Configurar e Primeiros Passos | Alura Cursos Online 
+
+Prazo: 2 dias
+
+	Desafio técnico:
+
+	Criar conta no github.
+
+	Criar Readme para o projeto usando markdown.
+
+	Subir desafio técnico feito no item 1.
